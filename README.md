@@ -13,7 +13,7 @@
 
 ### If beginning from scratch with custom data:
 
-**Note: Unless internal to CHOP, provided explicit permission or working with your own dataset, only de-identified data will be provided (see Data folder for de-identified modeling CSV files).  In which case, skip to "Modeling and analyses"**
+**Note: Unless internal to CHOP, provided explicit permission or working with your own dataset, only de-identified data will be provided (see `Data` folder for de-identified modeling CSV files).  In which case, skip to "Modeling and analyses"**
 
 1. Go to the `Extraction` folder and run `EEG_ANALYSIS_HIE.sql` in a compatible database to generate cohort data and save as `eeg_hie.csv`.  All remaining analyses will use the `Analysis` folder.
 2. Open the `HIE_patient_extraction.R` script, choose your directory and run the script to generate a reviewable list of individual with HIE who may have been treated using Therapeutic Hypothermia.
