@@ -6,7 +6,7 @@
 
 - In order to allow for additional customizability, scripts `neonate_seizure_predict_matrix.R` and `model_FPR_bootstrap.R` require user input to run.  These lines can be replaced with default values if desired and _should_ be replaced with default values if either script is sourced in relation to `seizure_predict_models.R`.
 - There are several redacted sections of the `neonate_seizure_predict_matrix.R` script which previously contained PHI. In order to remove this identifiable information, scripts will not entirely replicate our original analyses.
-- When running `seizure_predict_models.R`, `model_FPR_bootstrap.R` and other scripts, be sure to set file paths for any models you wish to save (currently, these paths default to the fake path names such as "your_path_here").
+- When running `seizure_predict_models.R`, `model_FPR_bootstrap.R` and other scripts, be sure to set file paths for any models you wish to save (currently, these paths default to the fake path names such as "your_path_here") and file names for any specific model results that will need to be uploaded.
 - Generating H2o models tends to use a lot of processing power and take a while to run.  It is recommended that these models be run on a virtual machine or similar alternative to your local computer. Note that this may require changing the code in source file `neonate_seizure_predict_matrix.R`.
 
 ## How to generate data:
